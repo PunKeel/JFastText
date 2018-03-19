@@ -192,7 +192,8 @@
                                 </classOrPackageName>
                             </classOrPackageNames>
                             <compilerOptions>
-                                <compilerOption>-std=c++0x -static</compilerOption>
+                                <compilerOption>-std=c++0x</compilerOption>
+                                <compilerOption>-static</compilerOption>
                                 <compilerOption>-I${project.build.sourceDirectory}/../cpp</compilerOption>
                             </compilerOptions>
                         </configuration>
